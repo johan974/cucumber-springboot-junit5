@@ -7,8 +7,8 @@ Feature: Basic Arithmetic
     When I add 4 and 5
     Then the result is 9
 
-  Scenario: Substraction
-    When I substract 7 to 2 
+  Scenario: Subtraction
+    When I subtract 7 to 2
     Then the result is 5
 
   Scenario Outline: Several additions

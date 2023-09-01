@@ -30,9 +30,9 @@ public class CalculatorSteps {
         calc.push("+");
     }
 
-    @When("^I substract (\\d+) to (\\d+)$")
-    public void substract(int arg1, int arg2) {
-        log.debug("Substracting {} and {}", arg1, arg2);
+    @When("^I subtract (\\d+) to (\\d+)$")
+    public void subtract(int arg1, int arg2) {
+        log.debug("Subtracting {} and {}", arg1, arg2);
         calc.push(arg1);
         calc.push(arg2);
         calc.push("-");
